@@ -1,0 +1,89 @@
+<!-- SNIP -->
+The introduction to the architecture documentation should list the driving forces that software architects must consider in their decisions.
+
+This includes on the one hand the fulfillment of functional requirements of the stakeholders, on the other hand the fulfillment of or compliance with required constraints, always in consideration of the architecture goals.
+<!-- /SNIP -->
+
+## 1.1 Requirements Overview
+
+<!-- SNIP -->
+Short description of the functional requirements.
+
+Digest (or abstract) of the requirements documents.
+
+Reference to complete requirements documents (incl. version identification and location).
+
+Contents
+: A compact summary of the functional environment of the system. Answers the following questions (at least approximately):
+  <ul>
+    <li> What happens in the system’s environment?
+    <li> Why should the system exist? 
+    <li> Why is the system valuable or important? 
+    <li> Which problems does the system solve?
+  </ul>
+
+Motivation
+: From the point of view of the end users a system is created or modified to improve execution of a business activity.
+: This essential architecture driver must not be neglected even though the quality of an architecture is mostly judged by its level of fulfillment of non-functional requirements.
+
+Form
+: Short textual description, probably in tabular use-case format.
+: The business context should in any case refer to the corresponding requirements documents.
+
+Examples
+: Short descriptions of the most important:
+
++ business processes
++ functional requirements
++ non-functional requirements and other constraints (the most important ones must be covered as architecture goals or are listed in the “Constraints” section), and/or
++ quantity structures
++ background information
+Here you can reuse parts of the requirements documents – but keep these
+excerpts short and balance readability against avoidance of redundancy.
+<!-- /SNIP -->
+
+## 1.2 Quality Goals
+
+<!-- SNIP -->
+Contents
+: The top three (max five) goals for the architecture and/or constraints whose fulfillment is of highest importance to the major stakeholders. Goals that define the architecture’s quality could be:
+
++ availability
++ modifiability
++ performance
++ security
++ testability
++ usability
+
+Motivation
+: If you as an architect do not know how the quality of your work can be judged …
+
+Form
+: Simple tabular representation, ordered by priorities
+
+Background Information
+: *NEVER* start developing an architecture if these goals have not been put into writing and have not been signed by the major stakeholders.
+
+> We have endured projects lacking defined quality goals much too often.
+> We do not like to suffer, therefore we are by now highly convinced that
+> the few hours spent on collecting quality goals are well invested.
+> PH & GS.
+
+Sources
+: The DIN/ISO 92000 Standard contains an extensive set of possible quality goals.Or use chapters 10 – 17 of the [VOLERE template](www.volere.co.uk) as a starting point .
+PH
+<!-- /SNIP -->
+
+## 1.3 Stakeholders
+
+<!-- SNIP -->
+Contents
+: A list of the most important persons or organizations that are affected by can contribute to the architecture.
+
+Motivation
+:If you do not know the persons participating in or concerned with the project you may get nasty surprises later in the development process. Should your project manager maintain this list, make sure that all the people influencing the architecture are part of it.
+
+Form
+: Simple table with role names, person names, their knowledge as pertaining to architecture, their availability, etc.
+
+<!-- /SNIP -->
